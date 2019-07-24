@@ -1,4 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  min-height: 1000px;
+}
+
+
 .header-hero {
+  background-color: #fff;
+  /* background: url('../img/hero-potcakes.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background: url('../img/header.png'); */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed;
+  background-size: cover; */
+}
+
+.navbar-bg {
+  background-color: #fff;
+  /* background-color: #FF6F61; */
+}
+/* .wave {
+  position: relative;
+  background: linear-gradient(90deg, #FF6F61, #FFFFFF);
+}
+
+.wave:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
+/* .header-hero {
   background: url('../img/hero-potcakes.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -6,3 +46,18 @@
   background-size: cover;
   background-color: #999;
 }
+
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+} */
